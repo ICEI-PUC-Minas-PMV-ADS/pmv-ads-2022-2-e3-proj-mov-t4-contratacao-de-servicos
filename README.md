@@ -1,5 +1,6 @@
-# TÍTULO DO PROJETO
-#Sistema de contratação de serviços
+#Sistema de Contratação de  Serviços
+
+
 `CURSO`
 
 `DISCIPLINA`
