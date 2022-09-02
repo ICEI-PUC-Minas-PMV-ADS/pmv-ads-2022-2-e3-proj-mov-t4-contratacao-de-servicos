@@ -1,24 +1,24 @@
-#Sistema de Contratação de  Serviços
+<h1>Sistema de contratação de serviços</h1> 
+<ul>
+<li>•	Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+<li>•	Projeto: Desenvolvimento de uma Aplicação Mobile</li>
+</ul>
+<h3>Terceiro periodo</h3>
+O objetivo geral deste trabalho é a criação de solução tecnológica que visa aproximar os usuários que queiram contratar serviços domésticos aos profissionais cadastrados, oferecendo-lhes vários orçamentos para que possam escolher a melhor opção.
 
-
-`CURSO`
-
-`DISCIPLINA`
-
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+<ul>
+<li>•	Márcia Maria de Paula Ferreira</li>
+<li>•	Marcelo dos Santos Farias</li>
+<li>•	Moisés Hastenraiter Da Silva</li>
+<li>•	Mário César de Souza Fernandes</li>
+<li>•	Ruver Clacyus Oliveira Caldeira</li>
+</ul>
 
 ## Orientador
 
-* Nome completo do professor 1
+•	Mateus Curcino De Lima
 
 ## Instruções de utilização
 
