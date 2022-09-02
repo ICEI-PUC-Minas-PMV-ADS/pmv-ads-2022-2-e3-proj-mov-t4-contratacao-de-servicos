@@ -1,5 +1,5 @@
 # Introdução
-
+As pessoas possuem a necessidade de realizar diferentes tipos de reparos e serviços em suas residências, desde problemas sem encantamento, limpeza e instalação de um ar-condicionado split, pintura, montagem de móveis, entre outros tipos de serviços ou manutenção. Em serviços especializados e reconhecidos são criados, assim, serviços de contratação de serviços qualificados e reconhecidos. Por outro lado, existem fornecedores de serviços que aumentam a sua clientela. Por isso buscar os seus serviços em sites e ferramentas que visam atingir os potenciais clientes de sua região. Diante desta perspectiva, queremos criar um aplicativo móvel em que os fornecedores possam se cadastrar e oferecer seus serviços. Da mesma forma, os usuários que precisam de um serviço para o seu lar, pode se informar e localizar os profissionais que podem ser atendidos. Além disso, o mobile funcionaria de forma colaborativa oferecendo condições para que o cliente e o profissional avaliem ao outro, e, assim, promovam um rank disso de propriedade, buscando o beneficiário dos melhores aplicativos e fornecedores.<</p>
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
