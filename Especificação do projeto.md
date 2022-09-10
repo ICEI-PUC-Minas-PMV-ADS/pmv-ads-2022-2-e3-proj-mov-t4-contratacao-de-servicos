@@ -97,4 +97,10 @@ EU IRIA	Restrição
 Diagrama de Casos de Uso
 diagrama 2
 
+## Diagrama de Casos de Uso
+
+
+![diagrama 2](https://user-images.githubusercontent.com/93413365/160945983-90031405-1c96-4f23-b36d-18d2efef5a8f.jpg)
+<p align="center">Figura 1 - Diagrama de Casos de Uso</p>
+
 Figura 1 - Diagrama de Casos de Uso
