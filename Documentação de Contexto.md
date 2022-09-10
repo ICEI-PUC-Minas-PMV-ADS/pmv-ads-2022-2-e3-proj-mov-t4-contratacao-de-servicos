@@ -1,27 +1,29 @@
-Introdução</h1>
-As pessoas possuem a necessidade de realizar diferentes tipos de reparos e serviços em suas residências, desde problemas sem encantamento, limpeza e instalação de um ar-condicionado split, pintura, montagem de móveis, entre outros tipos de serviços ou manutenção. Em serviços especializados e reconhecidos são criados, assim, serviços de contratação de serviços qualificados e reconhecidos. Por outro lado, existem fornecedores de serviços que aumentam a sua clientela. Por isso buscar os seus serviços em sites e ferramentas que visam atingir os potenciais clientes de sua região. Diante desta perspectiva, queremos criar um aplicativo móvel em que os fornecedores possam se cadastrar e oferecer seus serviços. Da mesma forma, os usuários que precisam de um serviço para o seu lar, pode se informar e localizar os profissionais que podem ser atendidos. Além disso, o mobile funcionaria de forma colaborativa oferecendo condições para que o cliente e o profissional avaliem ao outro, e, assim, promovam um rank disso de propriedade, buscando o beneficiário dos melhores aplicativos e fornecedores.
+<h1>Introdução</h1>
+<p>Muitas pessoas possuem a necessidade de realizar diferentes tipos de reparos e serviços em suas residências, desde problemas no encanamento, limpeza e instalação de um ar-condicionado split, pintura, montagem de móveis, entre outros tipos de serviços ou manutenção. Em algumas situações são necessários serviços especializados, exigindo, assim, a contratação de um profissional qualificado e reconhecido pelo bom serviço. Por outro lado, existem fornecedores de serviços que desejam aumentar a sua clientela. Por isso buscam anunciar os seus serviços em sites e ferramentas que visam aproximar os potenciais cliente de sua região. Diante desta perspectiva, queremos criar um aplicativo mobile em que os fornecedores possam se cadastrar e oferecer os seus serviços. Da mesma, os usuários que precisam de um serviço para o seu lar, poderiam se cadastrar e localizar os profissionais que poderiam atendê-las. Além disso, aplicativo mobile funcionaria de forma colaborativa oferecendo condições para que o cliente e o profissional avaliassem um ao outro, e, assim, promover um rank de reputação, buscando beneficiar os melhores usuários e fornecedores.</p>
+<h2>Problema</h2>
+<p>Conforme exposto, o problema que se busca resolver com este projeto é a aproximação dos usuários aos fornecedores de serviços de forma fácil, ágil e segura.</p>
+<h2>Objetivos</h2>
+O objetivo geral deste trabalho é a criação de solução tecnológica que visa aproximar os usuários que queiram contratar serviços domésticos aos profissionais cadastrados, oferecendo-lhes vários orçamentos para que possam escolher a melhor opção.
+Como objetivos específicos, podemos ressaltar:
+<li>Fornecer orçamentos de profissionais habilitados e qualificados;</li>
+<li>Fornecer a lista de clientes com a suas necessidades cadastradas;</li>
+<li>Fornecer rank dos profissionais e clientes mais bem avaliados;</li>
 
-Problema
-Conforme exposto, o problema que se busca resolver com este projeto é uma aproximação dos usuários aos fornecedores de serviços de forma fácil, ágil e segura.
 
-Objetivos
-O objetivo geral deste trabalho é uma criação de tecnologia que visa aproximar os usuários que podem contratar serviços aos vários profissionais cadastrados, todos os orçamentos para que possam escolher a melhor opção. Como objetivos específicos, podemos destacar:
-Fornecendo profissionais habilitados e orçamentos;
-Fornecer uma lista de necessidades de clientes com suas cadastradas;
-Fornecer classificação dos profissionais e clientes mais bem avaliados;
-Justificativa
-Na atualidade, com o aumento do ritmo de trabalho das pessoas, com o aumento do número de mulheres no mercado de trabalho, e com a aparência do covid-19 no final de 2019, as pessoas se viram obrigadas a mudar suas rotinas domésticas. Muitas pessoas começaram a trabalhar em casa, o home office, e muitas empresas mantiveram seus empregados trabalhando suas casas após o mesmo pico da pandemia, pois podem ser viáveis ​​e diminuídos a custos. Nesse, com muitas pessoas em casa, porém dedicando a maior parte de seu tempo ao seu trabalho, abre-se uma oportunidade para os serviços disponibilizados online, como os serviços de manutenção para casas. Desde a criação do uber, houve a criação de vários outros aplicativos de serviços que seguem a mesma lógica, como uber eats, airbnb, ifood, etc. Todos com o intuito de diminuir a intermediação entre o fornecedor do serviço e o cliente, facilitar e tornar mais seguras as transações financeiras entre eles. O aplicativo móvel proposto neste projeto está incluído nesse contexto de pós-pandemia e 'uberização' atual dos serviços, e encontra a oportunidade de fornecer fornecedores de serviços de manutenção doméstica e clientes de forma fácil, inteligente e segura. Os clientes e fornecedores podem avaliar uns, formando uma rede confiável de prestação de serviços. e encontra a oportunidade de fornecer fornecedores de serviços de manutenção doméstica e clientes de forma fácil, ágil e segura. Os clientes e fornecedores podem avaliar uns, formando uma rede confiável de prestação de serviços. e encontra a oportunidade de fornecer fornecedores de serviços de manutenção doméstica e clientes de forma fácil, ágil e segura. Os clientes e fornecedores podem avaliar uns, formando uma rede confiável de prestação de serviços.
 
-Público-Alvo
-Fornecedores de serviços:
-Profissionais autônomos: pintores, marceneiros, encanadores
-Pessoas que solicitam o conhecimento extra e estão dispostas a realizar serviços mais simples, que não exigem conhecimento específico, como montagem de movimentos;
-Pequenas empresas que desejam ser mais conhecidas na sua região de atuação; Esse grupo terá um meio de divulgação de seus serviços de uma forma mais direcionada aos clientes de sua região. Isso pode resultar também em aumentos de custos com transporte/combustível até o lugar de realização do serviço. Clientes:
-Qualquer pessoa interessada em contratar os serviços de manutenção e reparos citados anteriormente.
-Exemplos de pessoas que precisam de pouco tempo para realizar esses serviços, que não têm alguns problemas de montar seu móvel novo, que não têm o conhecimento de realizar mais serviços de projeto como de pintura e instalação de ar condicionado etc. será diretamente beneficiado pelo aplicativo móvel, pois terá de forma mais acessível e centralizada, na internet, uma disponibilização de prestadores de serviços de sua região.
+<h2>Justificativa</h2>
+<p>Na atualidade, com o aumento do ritmo de trabalho das pessoas, com o aumento do número de mulheres no mercado de trabalho, e com o aparecimento do covid-19 no final de 2019, as pessoas se viram obrigadas a mudar suas rotinas domésticas. Muitas pessoas começaram a trabalhar em casa, o chamado home-office, e muitas empresas mantiveram seus empregados trabalhando desde suas casas, mesmo após o pico da pandemia, pois viram que era uma opção viável e que diminuía custos para a empresa. Nesse contexto, com muitas pessoas em casa, porém dedicando a maior parte de seu tempo ao seu trabalho, abre-se uma oportunidade para os serviços disponibilizados online, como os serviços de manutenção para casas. Desde a criação do uber, houve a criação de vários outros aplicativos de serviços que seguiram a mesma lógica, como uber eats, airbnb, ifood, etc. Todos com o intuito de diminuir a intermediação entre o fornecedor do serviço e o cliente final, facilitar e tornar mais segura as transações financeiras entre eles. O aplicativo mobile proposto neste projeto está incluído nesse contexto atual de pós pandemia e ‘uberização’ dos serviços, e encontra nele a oportunidade de conectar fornecedores de servidos de manutenção doméstica e clientes de forma fácil, ágil e segura. Os clientes e fornecedores poderão avaliar uns aos outros, formando assim uma rede confiável de prestação de serviços.</p>
+<h2>Público-Alvo</h2>
+<h3>Fornecedores de serviços:</h3>
+<li>Profissionais autônomos: pintores, marceneiros, encanadores;</li>
+<li>Pessoas que procuram renda-extra e estão dispostas a realizar serviços mais simples, que não requerem demasiado conhecimento específico, como montagem de moveis;</li>
+<li>Pequenas empresas que desejem ser mais conhecidas na sua região de atuação; Esse grupo terá um meio de divulgação de seus serviços de uma forma mais direcionada aos clientes de sua região. Isso poderá resultar também em diminuição de gastos com transporte/combustível até o lugar de realização do serviço.
+Clientes:</li>
+<li>Qualquer pessoa interessada em contratar os serviços de manutenção e reparos citados anteriormente.</li>
 
-Responsáveis ​​pelo gerenciamento e criação do aplicativo mobile (podem ou não ser os mesmos), incluem:
-Desenvolvedores do aplicativo;
-Pessoas responsáveis ​​pelo gerenciamento do aplicativo, incluindo lucros e despesas que o site possa ter;
-Proprietário do aplicativo;
-Financiadores do aplicativo;
+<p>Alguns exemplos são pessoas que dispõe de pouco tempo para realizar esses serviços, que não querem ter a preocupação de montar seu móvel novo, que não tem o conhecimento de como realizar serviços mais específicos como de pintura e instalação de ar-condicionado etc. Esse grupo será diretamente beneficiado pelo aplicativo mobile, pois terá de forma mais acessível e centralizada, na internet, a disponibilização de prestadores de serviços da sua região.</p>
+<h3>Responsáveis pelo gerenciamento e criação do aplicativo mobile (podem ou não ser os mesmos), incluem:</h3>
+<li>Desenvolvedores do aplicativo;</li>
+<li>Pessoas responsáveis pelo gerenciamento do aplicativo, incluindo lucros e despesas que o site possa ter;</li>
+<li>Proprietario do aplicativo;</li>
+<li>Financiadores do aplicativo;</li>
