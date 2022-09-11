@@ -135,4 +135,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura  a seguir:
+![Orçamento](img/Matriz de Rastreabilidade.pdf)
