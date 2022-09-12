@@ -174,3 +174,7 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 ![Orçamento](img/Gestão-![Gestão Orçamentária](https://user-images.githubusercontent.com/91104085/189507814-ce2a2f35-4ff5-448d-aa0b-aa7b5417596f.jpeg)
 Orçamentária.jpeg)
+
+## Gestão de Pessoal
+
+![GestaoDePessoal](/docs/img/Gestão Pessoa.png)
