@@ -6,66 +6,67 @@
 <p align="justify">As personas que ajudaram na criação do processo de entendimento do problema são apresentadas que se seguem. </p>
 
 ## Nome: Carlos Alberto Silva
+![Persona Carlos](img/Carlos.png)
  - Idade: 65 anos.
  - Ocupação: Aposentado.
  - Aplicativos: Facebook, Instagram, WhatsApp.
  - Motivações: Ter um reparo com eficiência e qualidade nas instalações hidráulicas de sua residência por um preço justo.
  - Frustações: Problema na instalação hidráulica que resulta em vazamento de água. 
  - Hobbies e Historias: Viajar, Dançar forró (pé de serra). </p>
-![Persona Carlos](img/Carlos.png)
 
 ## Nome: José Carlos
+![Persona José](img/José.png)
  - Idade: 25 anos.
  - Ocupação: Bombeiro hidráulico e Eletricista.
  - Aplicativos: Facebook, Instagram, WhatsApp.
  - Motivações: Prestar serviços com qualidade, Adquirir novos Clientes e novas experiências, garantia de recebimento pelo serviço prestado. 
  - Frustações:Dificuldade em captar novos clientes para seu negócio, não recebimento pelo serviço prestado.
  - Hobbies e Historias: Ir ao cinema, ajudar uma ONG. </p>
-![Persona José](img/José.png)
 
 ## Nome: Rafael Silva 
+![Persona Rafael](img/Rafael.png)
  - Idade: 49 anos .
  - Ocupação: Administrador do sistema.
  - Aplicativos: Telegram, Facebook, Instagram, MYSQLservar, Visual code, .NET. 
  - Motivações: Administrar o sistema fazer correções de bugs para garantir a qualidade do sistema cadastrar as informações e gerenciá-las. 
  - Frustações: A não funcionalidade do sistema. 
  - Hobbies e Historias: Fazer trilha, Tocar violão. </p>
-![Persona Rafael](img/Rafael.png)
+
 ## Nome: Ana Clara 
+![Persona Ana](img/Ana.png)
  - Idade: 40 anos.
  - Ocupação: Dona de casa.
  - Aplicativos: WhatsApp.
  - Motivações: Montagem da nova estante, rapidez e qualidade e bom acabamento.
  - Frustações: Não conseguir bom montador dentro do curto espaço de tempo. 
  - Hobbies e Historias: Ver series, Se divertir com a família. </p>
- ![Persona Ana](img/Ana.png)
 
 ## Nome: André Araújo
+![Persona Andre](img/Andre.png)
  - Idade: 35 anos.
  - Ocupação: Montador de moveis.
  - Aplicativos: WhatsApp, Facebook ,Instagram.
  - Motivações: Prestar serviços com qualidade, Adquirir novos Clientes e novas experiências, garantia de recebimento pelo serviço prestado.
  - Frustações: Dificuldade em captar novos clientes para seu negócio, não recebimento pelo serviço prestado.
  - Hobbies e Historias: curtir com a família, viajar, Fazer exercícios físicos na acadêmica. </p>
-![Persona Andre](img/Andre.png)
 
 ## Nome: Julia Maria 
+![Persona Julia](img/Julia.png)
  - Idade: 42 anos.
  - Ocupação: Advogada.
  - Aplicativos: WhatsApp, Facebook, Instagram. 
  - Motivações: Babá com boas recomendações, sua filha bem cuidada enquanto realiza seus compromissos. 
  - Frustações: Não poder comparecer ao compromisso no horário marcado.
  - Hobbies e Historias: Passeios com a família, Caminhadas. </p>
-![Persona Julia](img/Julia.png)
 
 ## Nome: Marcia Oliveira 
+![Persona Marcia](img/Marcia.png)
  - Idade: 28 anos.
  - Ocupação: Baba.
  - Aplicativos: WhatsApp, Facebook, Instagram. 
  - Motivações: Prestar um bom atendimento aos clientes. 
  - Frustações: Não ter uma boa reputação para os serviços prestados. 
  - Hobbies e Historias: Ler livros, Serviços Voluntários. </p>
-![Persona Marcia](img/Marcia.png)
 
 ## Histórias de Usuários
 
