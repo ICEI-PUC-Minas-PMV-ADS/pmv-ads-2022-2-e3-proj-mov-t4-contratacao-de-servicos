@@ -11,7 +11,7 @@ O objetivo geral deste trabalho é a criação de solução tecnológica que vis
 <ul>
 <li>•	Márcia Maria de Paula Ferreira</li>
 <li>•	Marcelo dos Santos Farias</li>
-<li>•   Moisés Hastenraiter Da Silva</li>
+<li>• Moisés Hastenraiter Da Silva</li>
 <li>•	Mário César de Souza Fernandes</li>
 <li>•	Ruver Clacyus Oliveira Caldeira</li>
 </ul>
