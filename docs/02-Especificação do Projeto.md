@@ -73,17 +73,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Carlos Alberto Silva| Desejo uma ferramenta para encontrar prestadores de serviços na área de Hidráulica.    |Para ter fácil e rápido acesso a trabalhos oferecendo um serviço com qualidade e responsabilidade visando a satisfação do cliente.  
+|José Carlos | Desejo oferecer meus serviços em uma plataforma que possa captar novos clientes.             | Para solucionar um problema de vazamento na instalação Hidráulica.               |
+|Rafael Silva | Desejo colaborar para o bom funcionamento do sistema atuando na correção de bugs alterações no sistema.|Para satisfazer a demanda dos clientes prestadores de serviço e clientes contratantes de serviços. |
+|Ana Clara | Desejo uma ferramenta para encontrar um bom profissional para a montagem do móvel recém adquirido | Para receber uma visita importante com a nova decoração da sala.  |
+|André Araújo | Desejo Receber propostas de novos clientes interessados em montagens de moveis.  | Para captar novos clientes e ter maior faturamento.  |
+|Julia Maria|Desejo uma ferramenta para encontrar babás para cuidarem de sua filha enquanto estiver ausente. | Para não se preocupar com sua filha enquanto estiver trabalhando. |
+|Marcia Oliveira |Desejo oferecer serviços em uma plataforma que ajude a aumentar o número de clientes. | Para ser bem recomendada e aumentar seus ganhos com uma boa carteira de clientes |
 
 ## Modelagem do Processo de Negócio 
 
