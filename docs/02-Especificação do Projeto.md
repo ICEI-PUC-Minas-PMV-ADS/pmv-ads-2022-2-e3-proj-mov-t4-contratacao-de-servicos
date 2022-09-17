@@ -11,7 +11,7 @@
  - Aplicativos: Facebook, Instagram, WhatsApp.
  - Motivações: Ter um reparo com eficiência e qualidade nas instalações hidráulicas de sua residência por um preço justo.
  - Frustações: Problema na instalação hidráulica que resulta em vazamento de água. 
- - Hobbies e Historias: Viajar, Dançar forró (pé de serra).
+ - Hobbies e Historias: Viajar, Dançar forró (pé de serra). </p>
 ![Persona Carlos](img/Carlos.png)
 
 ## Nome: José Carlos
@@ -20,7 +20,7 @@
  - Aplicativos: Facebook, Instagram, WhatsApp.
  - Motivações: Prestar serviços com qualidade, Adquirir novos Clientes e novas experiências, garantia de recebimento pelo serviço prestado. 
  - Frustações:Dificuldade em captar novos clientes para seu negócio, não recebimento pelo serviço prestado.
- - Hobbies e Historias: Ir ao cinema, ajudar uma ONG.
+ - Hobbies e Historias: Ir ao cinema, ajudar uma ONG. </p>
 ![Persona José](img/José.png)
 
 ## Nome: Rafael Silva 
@@ -29,7 +29,7 @@
  - Aplicativos: Telegram, Facebook, Instagram, MYSQLservar, Visual code, .NET. 
  - Motivações: Administrar o sistema fazer correções de bugs para garantir a qualidade do sistema cadastrar as informações e gerenciá-las. 
  - Frustações: A não funcionalidade do sistema. 
- - Hobbies e Historias: Fazer trilha, Tocar violão.
+ - Hobbies e Historias: Fazer trilha, Tocar violão. </p>
 ![Persona Rafael](img/Rafael.png)
 ## Nome: Ana Clara 
  - Idade: 40 anos.
@@ -37,7 +37,7 @@
  - Aplicativos: WhatsApp.
  - Motivações: Montagem da nova estante, rapidez e qualidade e bom acabamento.
  - Frustações: Não conseguir bom montador dentro do curto espaço de tempo. 
- - Hobbies e Historias: Ver series, Se divertir com a família. 
+ - Hobbies e Historias: Ver series, Se divertir com a família. </p>
  ![Persona Ana](img/Ana.png)
 
 ## Nome: André Araújo
@@ -46,7 +46,7 @@
  - Aplicativos: WhatsApp, Facebook ,Instagram.
  - Motivações: Prestar serviços com qualidade, Adquirir novos Clientes e novas experiências, garantia de recebimento pelo serviço prestado.
  - Frustações: Dificuldade em captar novos clientes para seu negócio, não recebimento pelo serviço prestado.
- - Hobbies e Historias: curtir com a família, viajar, Fazer exercícios físicos na acadêmica.
+ - Hobbies e Historias: curtir com a família, viajar, Fazer exercícios físicos na acadêmica. </p>
 ![Persona Andre](img/Andre.png)
 
 ## Nome: Julia Maria 
@@ -55,7 +55,7 @@
  - Aplicativos: WhatsApp, Facebook, Instagram. 
  - Motivações: Babá com boas recomendações, sua filha bem cuidada enquanto realiza seus compromissos. 
  - Frustações: Não poder comparecer ao compromisso no horário marcado.
-Hobbies e Historias: Passeios com a família, Caminhadas.</p>
+ - Hobbies e Historias: Passeios com a família, Caminhadas. </p>
 ![Persona Julia](img/Julia.png)
 
 ## Nome: Marcia Oliveira 
