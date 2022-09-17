@@ -225,4 +225,4 @@ Orçamentária.jpeg)
 
 ## Gestão de Pessoal
 
-![GestaoDePessoal](/docs/img/Gestão Pessoa.png)
+![GestaoDePessoal](img/Gestao.png)
