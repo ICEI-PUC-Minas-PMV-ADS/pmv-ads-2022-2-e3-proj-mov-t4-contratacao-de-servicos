@@ -16,14 +16,14 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 |Fazer agendamento|O usuário cliente deverá ter efetuado login, irá clicar em agendar o serviço | RF-05 || RF-06 | |
 
 
-![Exemplo de Diagrama de Fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-sistema-de-contratacao-de-servicos/blob/main/docs/img/Diagrama%20de%20Fluxo%20de%20Usu%C3%A1rio.jpeg)
+![Exemplo de Diagrama de Fluxo]()
 <p align="center">Figura 4  - Diagrama de Fluxo</p>
 
 ## Wireframes
 
 <p align="justify">O wireframe apresenta o fluxo visual do procedimento passo a passo, baseado no fluxograma acima. Para a criação do wireframe foi utlizado Excalidraw.</p>
 
-![Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-sistema-de-contratacao-de-servicos/blob/main/docs/img/Wireframe.png)
+![Wireframe]()
 <p align="center">Figura 5 - Wireframe </p>
 
 
