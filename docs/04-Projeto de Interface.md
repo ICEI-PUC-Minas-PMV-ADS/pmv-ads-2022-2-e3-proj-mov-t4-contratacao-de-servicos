@@ -16,9 +16,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 |Fazer agendamento|O usuário cliente deverá ter efetuado login, irá clicar em agendar o serviço | RF-05 || RF-06 | |
 
 
-![Exemplo de Diagrama de Fluxo](https://lucid.app/lucidchart/51a28583-f00d-415e-b45f-365901aa176e/edit?invitationId=inv_1bc369ab-b90e-4fa1-a70b-1d323aee26d0#
+![Exemplo de Diagrama de Fluxo](pmv-ads-2022-2-e3-proj-mov-t4-contratacao-de-servicos/docs/img/Fluxograma Fornecedor.jpeg 
+pmv-ads-2022-2-e3-proj-mov-t4-contratacao-de-servicos/docs/img/Fluxograma Usuário.jpeg 
 
-https://lucid.app/lucidchart/0e3639aa-98ef-4782-8245-7f906eff47f0/edit?invitationId=inv_b3095f9b-a60d-43d9-8ac7-1f2648f77336#
 )
 <p align="center">Figura 4  - Diagrama de Fluxo</p>
 
