@@ -15,8 +15,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-01​​  O aplicativo deve possibilitar ao usuário (cliente e fornecedor de serviços) fazer login, se cadastrar ou alterar sua senha​ 
 |Objetivo do teste | Verificar se o sistema permite que os usuário se cadastrem. (Clientes e fornecedores)
-|Passos | 
-|Critérios de Êxito | 
+|Passos | <ol><li> Entrar no aplicativo </li> <li> Clicar na opção de login. </li> <li> Clicar em se cadastrar. </li><li>Escolher tipo de usuário.</li> <li> Efetuar cadastro. </li></ol>
+|Critérios de Êxito | <ul> <li> Aparecer mensagem de êxito ao criar o cadastro. </li> <li> Deve ser gerado um identificador único para o usuário</li> <li>Dados devem ser salvos no banco. </li> <li>Senha deve ser criptografada. </li></ul>
 
 <br>
 
@@ -24,8 +24,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-01 ​​  O aplicativo deve possibilitar ao usuário (cliente e fornecedor de serviços) fazer login, se cadastrar ou alterar sua senha​​  
 |Objetivo do teste |  Verificiar se o sistema permite que os usuários realizem login.
-|Passos | 
-|Critérios de Êxito | 
+|Passos |  <ol><li> Entrar no aplicativo. </li> <li> Clicar no ícone cabeçalho</li> <li> </li> <li> Clicar na opção de realizar login. </li> <li>Inserir dados para efetuar login</li></ol>
+|Critérios de Êxito | <ul> <li> Aparecer mensagem de logado com sucesso. </li> <li> Caso algum dado inserido estiver incorreto, aparecer mensagem avisando que usuário ou senha está incorreto.</li></ul>
 
 <br>
 
@@ -35,8 +35,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-01 ​​ O aplicativo deve possibilitar ao usuário (cliente e fornecedor de serviços) fazer login, se cadastrar ou alterar sua senha​​  
 |Objetivo do teste |  Verificar se o sistema permite que usuários realizem alteração de senha. 
-|Passos | 
-|Critérios de Êxito | 
+|Passos | <ol><li> Entrar no aplicativo. </li> <li> Clicar no ícone cabeçalho</li> <li> </li> <li> Clicar na opção de realizar login. </li> <li>Clicar na opção de esqueceu a senha.</li> <li>Inserir dados solicitados. </li><li>Sistema enviar e-mail com o código de redefinição de senha</li><li>Inserir o código recebido</li> <li>Criar nova senha </li></ol> 
+|Critérios de Êxito | <ul> <li> Caso o e-mail não esteja cadastrado no sistema, informar que o usuário não está cadastrado no sistema. </li> <li> Sistema enviando código para o usuário por e-mail.</li><li>Caso digite o código incorreto, sistema avisar que o código não confere.</li><li>Mensagem de alteração de senha realizada com sucesso.</li> <li>Salvar senha no banco e criptografar.</li></ul>
 
 
 <br>
@@ -46,29 +46,29 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado)​​  
 |Objetivo do teste |  Verificar se o sistema exibe para o fornecedor a lista pré-estabelecida de serviços oferecidos. 
 |Passos | 
-|Critérios de Êxito | 
+|Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li></ul>
 
 
 
 <br>
 
-|Caso de teste   | CT-05 - Cliente conseguindo visualizar lista pré-estabelecida como serviço oferecido. 
+|Caso de teste   | CT-05 - Cliente conseguindo visualizar lista pré-estabelecida como serviço desejado. 
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Verificar se o sistema exibe para o cliente a lista pré-estabelecida de serviços oferecidos. 
 |Passos | 
-|Critérios de Êxito | 
+|Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços desajados. </li></ul>
 
 
 
 <br>
 
-|Caso de teste   | CT-06 - Fornecedor conseguindo selecionar serviços da lista pré-estabelecida como serviço oferecido. 
+|Caso de teste   | CT-06 - Fornecedor conseguindo selecionar serviços da lista pré-estabelecida como serviço oferecido.              <!-– Ele poderá fazer o que depois de selecionar? -–>
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Garantir que o fornecedor consiga selecionar serviços da lista pré-estabelecida. 
 |Passos | 
-|Critérios de Êxito | 
+|Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li> <li>Fornecedor conseguindo selecionar o serviço oferecido. </li></ul>
 
 <br>
 
@@ -78,8 +78,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Garantir que o cliente consiga selecionar serviços da lista pré-estabelecida.
 |Passos | 
-|Critérios de Êxito | 
-
+|Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li> <li>Fornecedor conseguindo selecionar o serviço desejado. </li></ul>
 
 
 <br> 
@@ -89,19 +88,20 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-03 ​​  Permitir que o usuário visualize um ponto de coleta​​  
 |Objetivo do teste |  Garantir que o cliente consiga solictar orçamentos do serviço selecionado.
-|Passos | 
-|Critérios de Êxito | 
+|Passos | <ol><li>Acessar menu</li> <li>Procurar serviço</li> <li>Selecionar serviço</li><li>Solicitar orçamento.</li>                </ol>
+|Critérios de Êxito |  <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li> <li>Cliente conseguindo selecionar o serviço desejado. </li><li>Cliente conseguindo solicitar orçamento.</li><li>Mensagem de orçamento enviado com sucesso.</li><li>Certificar que orçamento chegou ao respectivo fornecedor.</li><li>Orçamento salvo dentro do banco de orçamento do fornecedor.</li></ul>
+
 
 
 
 <br> 
 
-|Caso de teste   | CT-09 - Cliente conseguindo incluir informações adicionais ao serviço requerido.
+|Caso de teste   | CT-09 - Cliente conseguindo incluir informações adicionais ao serviço requerido. 
 |------|-----------------------------------------|
 |Requisitos associados | RF-03 ​​ O site deve permitir ao cliente selecionar um serviço (da lista pré-estabelecida) e solicitar seu orçamento, podendo também adicionar informações sobre o serviço requerido ​​  
 |Objetivo do teste |  Garantir que o sistema permita o cliente a incluir informações adicionais no serviço requerido. 
 |Passos | 
-|Critérios de Êxito | 
+|Critérios de Êxito | <ul><li> Antes de enviar o orçamento, sistema fornecer campo para o cliente digitar informações adicionais referente ao serviço solicitado. </li></ul>
 
 
 
@@ -111,32 +111,32 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-04 ​​ O aplicativo deve permitir ao fornecedor enviar prosposta ​​  
 |Objetivo do teste |  Garantir que o sistema permita o fornecedor de enviar propostas de serviço. 
-|Passos | 
-|Critérios de Êxito | 
+|Passos | <ol><li>Acessar o menu.</li> <li>Verificar lista de orçamentos recebeidos.</li> <li>Selecionar orçamento recebido. </li> <li>Inserir informações da proposta.</li>Enviar proposta de orçamento.</ol> 
+|Critérios de Êxito | <ul> <li> Sistema fornecendo lista de orçamentos recebidos.</li> <li>Sistema permitindo selecionar orçamento e inserir informações de proposta.</li><li>Aparecer mensagem de orçamento enviado com sucesso.</li></ul>
 
 
 
 <br> 
 
 
-|Caso de teste   | CT-11 - Sistema permitindo cliente agendar serviço que teve seu orçamento aprovado.                       <! – Sistema irá fornecer datas disponíveis pelo fornecedor? –>
+|Caso de teste   | CT-11 - Sistema permitindo cliente agendar serviço que teve seu orçamento aprovado.                       <!-– Sistema irá fornecer datas disponíveis pelo fornecedor? -–>
 |------|-----------------------------------------|   
 |Requisitos associados | RF-05 ​​ O aplicativo deve permitir ao cliente o agendamento do serviço escolhido após ter recebido e aprovado o orçamento do mesmo ​​  
 |Objetivo do teste |  Garantir que o sistema esteja permitindo o cliente de agendar os serviços que tiveram o orçamento aprovado.
-|Passos |
-|Critérios de Êxito | 
+|Passos |<ol><li>Aceitar proposta de orçamento.</li> <li>Escolher data e horário do agendamento.</li>Enviar agendamento do serviço.</ol>
+|Critérios de Êxito | <ul> <li>Cliente conseguindo informar data, horário de agendamento e endereço. </li> <li> Mensagem de agendamento realizado com sucesso.</li> <li>Agendamento salvo no banco de agendamentos do fornecedor e do cliente.</li>  </ul>
 
 
 
 <br> 
 
 
-|Caso de teste   | CT-12 - Sistema permitindo cliente adicionar serviços com orçamento aprovados a uma lista de serviços/carrrinhos de compras.     <! – A confirmação de que o serviço será realizada será somente depois que o cliente concluir a compra? –>    
+|Caso de teste   | CT-12 - Sistema permitindo cliente adicionar serviços com orçamento aprovados a uma lista de serviços/carrrinhos de compras.     <! – A confirmação de que o serviço será realizada será somente depois que o cliente concluir a compra?  Faz sentido termos isso no sistema? –>    
 |------|-----------------------------------------|   
 |Requisitos associados | RF-06 ​​ O aplicativo deve permitir ao cliente adicionar o serviço (com seu orçamento previamente aprovado) a uma lista de serviços/carrinho de compras ​​  
 |Objetivo do teste |  Garantir que o cliente consiga adicionar no carrinho os serviços com orçamento aprovados. 
 |Passos | 
-|Critérios de Êxito | 
+|Critérios de Êxito | <ul> <li> Ao clicar em lista a visualização deve mudar </li> <li> Devem aparecer cards mostrando os pontos</li></ul>
 
 
 
@@ -147,8 +147,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|   
 |Requisitos associados | RF-07 ​​ O aplicativo deve permitir ao cliente realizar a avaliação do serviço prestado pelo fornecedor ​​  
 |Objetivo do teste |  Garantir que o ciente consiga avaliar o serviço do fornecedor. 
-|Passos |
-|Critérios de Êxito | 
+|Passos | <ol><li>Abrir aplicativo.</li> <li>Responder avaliação que foi notificada pelo aplicativo.</li> </ol> 
+|Critérios de Êxito | <ul> <li>Após a data e horário do agendamento de serviço, sistema notificando usuário a realizar avaliação do serviço. </li> <li>Cliente conseguindo atribuir até 5 estrelas de avaliação. </li> <li>Cliente conseguindo adicionar comentários adicionar de avaliação.</li></ul>
 
 
 
@@ -170,8 +170,17 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|   
 |Requisitos associados | RF-09 ​​ O aplicativo deve permitir ao cliente visualizar o contato e as avaliações referentes aos fornecedores ​​  
 |Objetivo do teste |  Garantir que o cliente consiga visualizar o contato e as avaliações recebidas pelo fornecedor.
-|Passos | 
-|Critérios de Êxito | 
+|Passos | <ol> <li>Acessar menu. </li> <li>Selecionar serviço pré-listado. </li> <li>Visualizar contato e avaliação do serviço selecionado.</li> </ol>
+|Critérios de Êxito | <ul> <li> Sistema fornecendo informação de contato do fornecedor e média de avaliação recebida junto com os respectivos comentários. </li></ul>
+
+<br>
+
+|Caso de teste   | CT-16 - Cliente aceitando propostas de orçamento. 
+|------|-----------------------------------------|   
+|Requisitos associados | RF-10 ​​ 	O aplicativo deve permitir ao cliente aceitar as proposta de orçamento. ​​  
+|Objetivo do teste |  Garantir que o cliente consiga aceitar a proposta de orçamento do fornecedor.
+|Passos | <ul><li>Habilitar menu</li><li>Verificar propostas recebidas.</li> <li>Aceitar propostas.</li>    </ul>
+|Critérios de Êxito | <ul> <li> Sistema fornecer lista de propostas recebidas. </li> <li> Mensagem de proposta aceita com sucesso.</li> <li>Salvar proposta aceita no banco de propostas aceitas.</li> <li>Sistema enviando ao fornecedor a notificação que seu orçamento foi aprovado.</li></ul>
 
 
 
