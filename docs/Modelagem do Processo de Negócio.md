@@ -19,11 +19,6 @@ Abrange o requisito: RF-
 ![visualizar o contato e as avaliações referentes aos fornecedores](img/)
 . </p>
 
-## Permitir ao fornecedor o recebimento online pelo serviços prestados: 
-Abrange o requisito: RF-
-![recebimento online pelo serviços prestados](img/)
-. </p>
-
 ## Permitir ao cliente realizar a avaliação do serviço prestado pelo fornecedor: 
 Abrange o requisito: RF-
 ![avaliação do serviço prestado](img/)
