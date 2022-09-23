@@ -52,10 +52,10 @@ Abrange o requisito: RF-
 ![Contagem Avaliações]()
 . </p>
 
-## Indicar download play store: 
-![Indicar download play store]()
+## Data / Indicar download play store: 
+![Data/Indicar download play store]()
 . </p>
 
-## Data/Indicar público masculino / feminino: 
-![Data/Indicar público masculino / feminino]()
+## Indicar público masculino / feminino: 
+![Indicar público masculino / feminino]()
 . </p>
