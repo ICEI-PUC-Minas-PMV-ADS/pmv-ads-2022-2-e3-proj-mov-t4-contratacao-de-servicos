@@ -57,6 +57,5 @@ Abrange o requisito: RF-
 . </p>
 
 ## Indicar público masculino / feminino: 
-![Persona Carlos](img/Carlos.png)
-![Indicar público masculino / feminino](img/Carlos.png)
+![Indicar público masculino / feminino](img/Indicar-público-masculino-feminino.png)
 . </p>
