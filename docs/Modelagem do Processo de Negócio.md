@@ -41,21 +41,21 @@ Abrange o requisito: RF-
 # Indicadores de Desempenho
 
 ## Data/Tempo postagem: 
-![Data/Tempo](img/)
+![Data/Tempo](img/DataTempo postagem.png)
 . </p>
 
 ## Data/Pessoas simultâneas: 
-![Data/Pessoas simultâneas](img/)
+![Data/Pessoas simultâneas](img/DataPessoas simultâneas.png)
 . </p>
 
 ## Contagem Avaliações: 
-![Contagem Avaliações](img/)
+![Contagem Avaliações](img/Contagem Avaliações.png)
 . </p>
 
 ## Data / Indicar download play store: 
-![Data/Indicar download play store](img/)
+![Data/Indicar download play store](img/Indicar download play store.png)
 . </p>
 
 ## Indicar público masculino / feminino: 
-![Indicar público masculino / feminino](img/)
+![Indicar público masculino / feminino](img/Indicar público masculino feminino.png)
 . </p>
