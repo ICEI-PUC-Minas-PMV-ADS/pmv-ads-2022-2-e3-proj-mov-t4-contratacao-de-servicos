@@ -53,9 +53,9 @@ Abrange o requisito: RF-
 . </p>
 
 ## Data / Indicar download play store: 
-![Data/Indicar download play store](img/Indicar download play store.png)
+![Data/Indicar download play store](img/Indicardownloadplaystore.png)
 . </p>
 
 ## Indicar público masculino / feminino: 
-![Indicar público masculino / feminino](img/Indicar-público-masculino-feminino.png)
+![Indicar público masculino / feminino](img/Indicarpúblicomasculinofeminino.png)
 . </p>
