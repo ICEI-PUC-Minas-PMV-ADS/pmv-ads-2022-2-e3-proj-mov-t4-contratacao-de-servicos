@@ -45,7 +45,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado)​​  
 |Objetivo do teste |  Verificar se o sistema exibe para o fornecedor a lista pré-estabelecida de serviços oferecidos. 
-|Passos | 
+|Passos | <ol><li>Acessar menu</li> <li>Acessar lista de serviço pré pré-estabelecida</li> <li>Visualizar serviços</li>
 |Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li></ul>
 
 
@@ -56,7 +56,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Verificar se o sistema exibe para o cliente a lista pré-estabelecida de serviços oferecidos. 
-|Passos | 
+|Passos | <ol><li>Acessar menu</li> <li>Acessar lista de serviço pré pré-estabelecida</li> <li>Visualizar serviços</li>
 |Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços desajados. </li></ul>
 
 
@@ -67,7 +67,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Garantir que o fornecedor consiga selecionar serviços da lista pré-estabelecida. 
-|Passos | 
+|Passos | <ol><li>Acessar menu</li> <li>Procurar serviço</li> <li>Selecionar serviço</li>
 |Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li> <li>Fornecedor conseguindo selecionar o serviço oferecido. </li></ul>
 
 <br>
@@ -77,7 +77,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------|-----------------------------------------|
 |Requisitos associados | RF-02 ​​ O aplicativo deve conter uma lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado) ​​  
 |Objetivo do teste |  Garantir que o cliente consiga selecionar serviços da lista pré-estabelecida.
-|Passos | 
+|Passos | <ol><li>Acessar menu</li> <li>Procurar serviço</li> <li>Selecionar serviço</li>
 |Critérios de Êxito | <ul> <li>Sistema fornecendo lista de serviços oferecidos. </li> <li>Fornecedor conseguindo selecionar o serviço desejado. </li></ul>
 
 
@@ -131,19 +131,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 <br> 
 
 
-|Caso de teste   | CT-12 - Sistema permitindo cliente adicionar serviços com orçamento aprovados a uma lista de serviços/carrrinhos de compras.     <! – A confirmação de que o serviço será realizada será somente depois que o cliente concluir a compra?  Faz sentido termos isso no sistema? –>    
-|------|-----------------------------------------|   
-|Requisitos associados | RF-06 ​​ O aplicativo deve permitir ao cliente adicionar o serviço (com seu orçamento previamente aprovado) a uma lista de serviços/carrinho de compras ​​  
-|Objetivo do teste |  Garantir que o cliente consiga adicionar no carrinho os serviços com orçamento aprovados. 
-|Passos | 
-|Critérios de Êxito | <ul> <li> Ao clicar em lista a visualização deve mudar </li> <li> Devem aparecer cards mostrando os pontos</li></ul>
 
-
-
-<br> 
-
-
-|Caso de teste   | CT-13 - Sistema permitindo cliente avaliar serviço que foi prestado pelo fornecedor.
+|Caso de teste   | CT-12 - Sistema permitindo cliente avaliar serviço que foi prestado pelo fornecedor.
 |------|-----------------------------------------|   
 |Requisitos associados | RF-07 ​​ O aplicativo deve permitir ao cliente realizar a avaliação do serviço prestado pelo fornecedor ​​  
 |Objetivo do teste |  Garantir que o ciente consiga avaliar o serviço do fornecedor. 
@@ -155,18 +144,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 <br>
 
 
-|Caso de teste   | CT-14 - Fornecedor recebendo de forma online pelos serviços prestados.                   <! – O fornecedor só vai receber depois de realizar o serviço ou depois do cliente aprovar o serviço? Vamos conseguir colocar isso no app? –>    
-|------|-----------------------------------------|   
-|Requisitos associados | RF-08 ​​ O aplicativo deve permitir ao fornecedor o recebimento online pelo serviços prestados	 ​​  
-|Objetivo do teste |  Garantir que o fornecedor receba o pagamento online de seus serviços. 
-|Passos | 
-|Critérios de Êxito | 
-
-<br>
 
 
-
-|Caso de teste   | CT-15 - Cliente visualizando o contato e as avaliações recebidas pelo fornecedor selecionado. 
+|Caso de teste   | CT-13 - Cliente visualizando o contato e as avaliações recebidas pelo fornecedor selecionado. 
 |------|-----------------------------------------|   
 |Requisitos associados | RF-09 ​​ O aplicativo deve permitir ao cliente visualizar o contato e as avaliações referentes aos fornecedores ​​  
 |Objetivo do teste |  Garantir que o cliente consiga visualizar o contato e as avaliações recebidas pelo fornecedor.
@@ -175,7 +155,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 <br>
 
-|Caso de teste   | CT-16 - Cliente aceitando propostas de orçamento. 
+|Caso de teste   | CT-14 - Cliente aceitando propostas de orçamento. 
 |------|-----------------------------------------|   
 |Requisitos associados | RF-10 ​​ 	O aplicativo deve permitir ao cliente aceitar as proposta de orçamento. ​​  
 |Objetivo do teste |  Garantir que o cliente consiga aceitar a proposta de orçamento do fornecedor.
