@@ -6,7 +6,7 @@
 
 ##  Possibilitar ao usuário (cliente e fornecedor de serviços) fazer login, se cadastrar ou alterar sua senha: 
 Abrange o requisito: RF-
-![fazer login, se cadastrar ou alterar sua senha](img/)
+![fazer login, se cadastrar ou alterar sua senha](img/usuario gestao de processo.jpeg)
 . </p>
 
 ## Lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado): 
