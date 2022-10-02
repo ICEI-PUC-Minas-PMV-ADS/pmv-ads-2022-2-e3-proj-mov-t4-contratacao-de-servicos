@@ -9,9 +9,9 @@ Abrange o requisito: RF-
 ![fazer login, se cadastrar ou alterar sua senha](img/usuariogestaodeprocesso.jpeg)
 . </p>
 
-## Lista pré-estabelecida de serviços que poderão ser selecionados pelo fornecedor de serviços (como serviço oferecido) e pelo cliente (como serviço desejado): 
+## Possibilibitar o usuário se cadastrar como (cliente ou fornecedor de serviços) : 
 Abrange o requisito: RF-
-![Lista pré-estabelecida de serviços](img/)
+![usuário se cadastrar como (cliente ou fornecedor de serviços)](img/cadastrousuariosclientesfornecedores.jpeg)
 . </p>
 
 ##  Permitir ao cliente visualizar o contato e as avaliações referentes aos fornecedores: 
