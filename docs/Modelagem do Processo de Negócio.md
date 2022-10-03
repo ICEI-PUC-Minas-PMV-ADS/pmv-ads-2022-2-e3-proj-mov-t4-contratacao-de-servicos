@@ -14,23 +14,9 @@ Abrange o requisito: RF-
 ![usuário se cadastrar como (cliente ou fornecedor de serviços)](img/cadastrousuariosclientesfornecedores.jpeg)
 . </p>
 
-##  Permitir ao cliente visualizar o contato e as avaliações referentes aos fornecedores: 
+##  Permitir ao cliente visualizar Ordens de serviços: 
 Abrange o requisito: RF-
-![visualizar o contato e as avaliações referentes aos fornecedores](img/)
-. </p>
-
-## Permitir ao cliente realizar a avaliação do serviço prestado pelo fornecedor: 
-Abrange o requisito: RF-
-![avaliação do serviço prestado](img/)
-. </p>
-
-## Permitir ao cliente o agendamento do serviço escolhido após ter recebido e aprovado o orçamento do mesmo: 
-Abrange o requisito: RF-
-![agendamento do serviço](img/)
-. </p>
-## Permitir ao fornecedor enviar prosposta: 
-Abrange o requisito: RF-
-![enviar prosposta](img/)
+![visualizar o contato e as avaliações referentes aos fornecedores](img/ordensdeserviços.png)
 . </p>
 
 # Indicadores de Desempenho
