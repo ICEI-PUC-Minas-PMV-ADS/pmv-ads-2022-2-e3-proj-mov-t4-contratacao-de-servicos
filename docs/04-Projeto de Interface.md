@@ -26,7 +26,7 @@ pmv-ads-2022-2-e3-proj-mov-t4-contratacao-de-servicos/docs/img/Fluxograma Usuár
 
 <p align="justify">O wireframe apresenta o fluxo visual do procedimento passo a passo, baseado no fluxograma acima. Para a criação do wireframe foi utlizado Figma.</p>
 
-![Wireframe](https://www.figma.com/file/DjwRKORYkt48l6M7zlk4Jc/Contrata%C3%A7%C3%A3o-Servi%C3%A7os?node-id=712%3A34)
+![Wireframe](../docs/img/Contrata%C3%A7%C3%A3o%20Servi%C3%A7os.jpg)
 <p align="center">Figura 5 - Wireframe </p>
 
 
