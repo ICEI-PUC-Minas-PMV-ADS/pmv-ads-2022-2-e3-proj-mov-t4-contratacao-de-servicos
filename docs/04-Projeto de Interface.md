@@ -16,7 +16,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 |Fazer agendamento|O usuário cliente deverá ter efetuado login, irá clicar em agendar o serviço | RF-05 || RF-06 | |
 
 
-![Exemplo de Diagrama de Fluxo](../docs/img/Fluxograma Fornecedor.jpeg, ../docs/img/Fluxograma Usuário.jpeg)
+![Exemplo de Diagrama de Fluxo](../docs/img/Fluxograma%20usu%C3%A1rio%20cliente%20ou%20fornecedor.png )
 <p align="center">Figura 4  - Diagrama de Fluxo</p>
 
 ## Wireframes
