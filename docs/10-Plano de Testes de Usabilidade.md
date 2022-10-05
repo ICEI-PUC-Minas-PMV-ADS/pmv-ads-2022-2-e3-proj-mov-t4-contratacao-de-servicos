@@ -1,11 +1,19 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+Planejamento de realização de testes com usuários definindo as operações que os usuários devem realizar.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+|Caso de teste   | CTU -001 Usuários conseguindo acessar o aplicativo através de seu dispositivo mobile. 
+|------|-----------------------------------------|
+|Requisitos associados |RNF -001 
+|Objetivo do teste | Aplicativo sendo acessado com êxito pelo seu dispositivo mobile.
+|Critérios de Êxito | <ul><li>Usuário acessando o aplicativo pelo seu dispositivo mobile.</li><li>Caso dê algum erro no carregamento do aplicativo, o usuário deverá ser informado.</li></ul>
+
+|Caso de teste   | CTU -002 Usuários conseguindo utilizar a funcionalidade de localização para encontrar fornecedores mais próximos.
+|------|-----------------------------------------|
+|Requisitos associados |RNF -002 Aplicativo processando requisições em até 3s
+|Objetivo do teste | Garantir um bom desempenho da aplicação.
+|Critérios de Êxito | <ul><li>Sistema processando requisições em até 3s.</li></ul>
+
