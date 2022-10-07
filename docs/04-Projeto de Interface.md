@@ -21,7 +21,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Wireframes
 
-<p align="justify">O wireframe apresenta o fluxo visual do procedimento passo a passo, baseado no fluxograma acima. Para a criação do wireframe foi utlizado Figma.</p>
+<p align="justify">O wireframe apresenta o fluxo visual do procedimento passo a passo, baseado no fluxograma acima. Para a criação do wireframe foi utlizado Figma.</p>Para visualizar a interatividade acessar o link: https://www.loom.com/share/de6bf6d77ff34aefac4cb53d0f035eb2.
 
 ![Wireframe](../docs/img/Contrata%C3%A7%C3%A3o%20Servi%C3%A7os.jpg)
 <p align="center">Figura 5 - Wireframe </p>
