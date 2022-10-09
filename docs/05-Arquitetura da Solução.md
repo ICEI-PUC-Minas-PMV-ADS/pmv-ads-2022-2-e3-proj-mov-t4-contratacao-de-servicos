@@ -8,28 +8,36 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+<p align="justify">O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+Segue abaixo o diagrama de classes deste projeto:</p>
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-sistema-de-contratacao-de-servicos/main/docs/img/diagrama_de%20_classes.jpeg">
+</p>
+<p align="center">Figura 6 - Diagrama de Classes</p>
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+<p align="justify">O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+Segue abaixo o modelo de entidade relacional deste projeto:</p>
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-sistema-de-contratacao-de-servicos/main/docs/img/MER.jpg">
+</p>
+<p align="center">Figura 7 - Modelo de Entidade Relacional</p>
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+<p align="justify">O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+Segue abaixo o esquema relacional deste projeto:</p>
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-sistema-de-contratacao-de-servicos/main/docs/img/ER.png">
+</p>
+<p align="center">Figura 8 - Esquema Relacional</p>
 
 ## Modelo Físico
 
@@ -37,20 +45,18 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+<p align="justify">Para a para solução do problema serão utilizados o React Native para o desenvolvimento do aplicativo.
+Para o back-end, a linguagem de programação utilizada será a javascript, e como framework utilizaremos a NodeJs/ExpressJs.
+Utilizaremos o Visual Code como IDE de desenvolvimento, e como Sistema Gerenciador de Banco de Dados (SGBD) utilizaremos o  MySQL.
+Durante o desenvolvimento serão priorizadas o uso de ferramentas alternativas gratuitas de tecnologia, dentre elas: Trello, Mysql, Visual Code e Figma, como especificando anteriormente na metodologia.
+A imagem abaixo demonstra a interação do usuário com o sistema, por onde ela passa até retornar uma resposta ao usuário:</p>
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
+A API será hospedado em servidor próprio com IP vaálido e será feito o lançamento do aplicativo na platofoma Android.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
 
@@ -61,8 +67,49 @@ No contexto de desenvolvimento de software, qualidade pode ser entendida como um
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
 Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+A norma internacional ISO/IEC 25010 define oito características e 30 subcaracterísticas sobre qualidade para produtos de software. Embora todas estas sejam relevantes e desejáveis, este projeto tem foco em medir a qualidade segundo estes aspectos:
+
+<ul dir="auto">
+<li>Adequação Funcional
+<ul dir="auto">
+<li>Completude funcional</li>
+<li>Correção funcional</li>
+</ul>
+</li>
+<li>Eficiência/Performance
+<ul dir="auto">
+<li>Utilização de recursos</li>
+</ul>
+</li>
+<li>Usabilidade
+<ul dir="auto">
+<li>Operabilidade</li>
+<li>Proteção contra erro do usuário</li>
+<li>Estética de interface</li>
+</ul>
+</li>
+<li>Confiabilidade
+<ul dir="auto">
+<li>Maturidade</li>
+<li>Tolerância a falhas</li>
+</ul>
+</li>
+<li>Segurança
+<ul dir="auto">
+<li>Confidencialidade</li>
+<li>Integridade</li>
+</ul>
+</li>
+<li>Manutenibilidade
+<ul dir="auto">
+<li>Modularidade</li>
+<li>Reusabilidade</li>
+<li>Modificabilidade</li>
+</ul>
+</li>
+<li>Portabilidade
+<ul dir="auto">
+<li>Adaptabilidade</li>
+</ul>
+</li>
+</ul>
