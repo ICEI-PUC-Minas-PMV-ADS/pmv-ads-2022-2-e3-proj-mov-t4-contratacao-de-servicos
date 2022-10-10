@@ -20,7 +20,7 @@ Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina tam
 |Ambiente| Plataforma  |Link de Acesso |
 |--------------------|------------------------------------|----------------------------------------|
 |Repositório de código fonte |GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t4-contratacao-de-servicos
-|Documentos do projeto |GitHubDocs|Projeto Sistema de contratação de Serviços|
+|Documentos do projeto |GitHubDocs|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t4-contratacao-de-servicos/tree/main/docs|
 |Projeto de Interface e Wireframes |figma|https://figma.com|
 |Gerenciamento do Projeto |Trello|https://trello.com/b/980Ikg3o/bh-contrata%C3%A7%C3%A3o-de-servi%C3%A7os
 
@@ -56,10 +56,10 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 ### Divisão de Papéis
 
 <p align="justify">A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:</p>
-- Scrum Master: Ruver Caldeira;
-- Product Owner: Mario Fernandes;
-- Equipe de Desenvolvimento: Marcelo Farias, Moisés Silva e Mario Fernandes;
-- Equipe de Design: Márcia Ferreira e Ruver Caldeira.
+<p>- Scrum Master: Ruver Caldeira;</p>
+<p>- Product Owner: Mario Fernandes;</p>
+<p>- Equipe de Desenvolvimento: Marcelo Farias, Moisés Silva e Mario Fernandes;</p>
+<p>- Equipe de Design: Márcia Ferreira e Ruver Caldeira.</p>
 
 ### Processo
 
@@ -67,17 +67,17 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 <p align="justify">Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:</p>
 
 <p align="justify">
-● Backlog: Essa lista é onde as tarefas de projetos são alocadas em cartões individuais. 
+● <b>Backlog</b>: Essa lista é onde as tarefas de projetos são alocadas em cartões individuais. 
 
-● A Fazer: Uma vez que a tarefa foi completamente aprofundada, ela é movida a essa lista para mostrar à equipe que a tarefa já está pronta para ser executada. A essa altura, um membro da equipe é designado para ser o dono da tarefa e as datas de entrega são estabelecidas.
+● <b>A Fazer</b>: Uma vez que a tarefa foi completamente aprofundada, ela é movida a essa lista para mostrar à equipe que a tarefa já está pronta para ser executada. A essa altura, um membro da equipe é designado para ser o dono da tarefa e as datas de entrega são estabelecidas.
 
-● Em andamento: à medida que o time começa a trabalhar nas tarefas, os cartões são movidos para essa lista. Rapidamente, todo o time pode ver as tarefas atuais de cada membro. Os cartões do Trello também permitem que os times conversem e façam perguntas uns aos outros sobre uma certa tarefa com a funcionalidade de comentários. 
+● <b>Em andamento</b>: à medida que o time começa a trabalhar nas tarefas, os cartões são movidos para essa lista. Rapidamente, todo o time pode ver as tarefas atuais de cada membro. Os cartões do Trello também permitem que os times conversem e façam perguntas uns aos outros sobre uma certa tarefa com a funcionalidade de comentários. 
 
-● Revisão:  Quando a tarefa está quase concluída, é o momento de movê-la para esta lista para que seja revisada ou que alguém dê uma segunda olhada. 
+● <b>Revisão</b>:  Quando a tarefa está quase concluída, é o momento de movê-la para esta lista para que seja revisada ou que alguém dê uma segunda olhada. 
 
-● Teste:  Apos a revisão, a tarefa é movida para a fila de teste, onde será realizados os devidos testes para saber se a tarefa atende os requisitos.
+● <b>Teste</b>:  Apos a revisão, a tarefa é movida para a fila de teste, onde será realizados os devidos testes para saber se a tarefa atende os requisitos.
 
-● Concluído: Quando a tarefa tiver sido revisada, testada e aprovada, ela é movida para fila de concluído.</p>
+● <b>Concluído</b>: Quando a tarefa tiver sido revisada, testada e aprovada, ela é movida para fila de concluído.</p>
 
 
 <p align="justify">O quadro kanban utilizado pelo grupo está disponível no Trello e pode ser acessado através da URL https://trello.com/b/980Ikg3o/bh-contrata%C3%A7%C3%A3o-de-servi%C3%A7os  </p>

@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "sistema-contratacao-servicos",
-    "slug": "snack-637915be-e26c-45e3-8024-e5b4c3434874",
+    "slug": "snack-c56ba054-ea92-4e3f-900e-78bb62e4e6a7",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
