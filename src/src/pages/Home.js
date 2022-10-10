@@ -10,12 +10,14 @@ import {
 import { Input } from './../components/Input';
 import { Container } from '../components/Container';
 import { useNavigation } from '@react-navigation/native'
+import { Body } from '../components/Body';
 
 const Home = () => {
   const navigation = useNavigation();
   
   return (
     <Container>
+      <Body>
       <Image style={styles.logo} source={require('../assets/bh_logo.png')} />
       <Input label="Digite seu email" />
       <Input label="Digite sua senha" secureTextEntry />
@@ -36,6 +38,7 @@ const Home = () => {
           </TouchableOpacity>
         </View>
       </View>
+      </Body>
     </Container>
   );
 };

@@ -13,6 +13,8 @@ const styles = StyleSheet.create({
   container:{
     flex: 1,
     backgroundColor: '#fff',
-    margin: 8
+    margin: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 })

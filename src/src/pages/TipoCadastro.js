@@ -1,19 +1,23 @@
 import React from 'react';
 import {
-  Image,
   StyleSheet,
   TouchableOpacity,
   Text,
   Alert,
   View,
 } from 'react-native';
-import { Input } from './../components/Input';
-
+import { Header } from '../components/Header';
 import { Container } from '../components/Container';
+import { Body } from '../components/Body';
+import { useNavigation } from '@react-navigation/native';
 
 const TipoCadastro = () => {
+  const navigation = useNavigation();
   return (
     <Container>
+      <Header title="Tipo de Cadastro" goBack={() => navigation.goBack()}>
+      </Header>
+      <Body>
       <TouchableOpacity
         style={styles.botao}
         onPress={() => {
@@ -29,6 +33,7 @@ const TipoCadastro = () => {
         }}>
         <Text style={styles.botaoText}>Fornecedor</Text>
       </TouchableOpacity>
+      </Body>
     </Container>
   );
 };
