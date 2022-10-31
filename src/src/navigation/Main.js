@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home';
-import TipoCadastro from '../pages/TipoCadastro';
+import AlterarSenha from '../pages/AlterarSenha';
 
 
 const Stack = createNativeStackNavigator();
@@ -17,8 +17,8 @@ export default function Main(){
           }}
         />
         <Stack.Screen 
-          name="TipoCadastro" 
-          component={TipoCadastro} 
+          name="AlterarSenha" 
+          component={AlterarSenha} 
           options={{
               header:()=> null
           }}

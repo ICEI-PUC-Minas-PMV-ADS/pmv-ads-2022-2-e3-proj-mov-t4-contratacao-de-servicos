@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://vendamao.melopecas.com.br/services/appservicos';

@@ -13,8 +13,7 @@ export function Input(props) {
 
 const styles = StyleSheet.create({
   input: {
-    marginTop: 10,
-    width: 300,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    marginBottom: 8,
   },
 });

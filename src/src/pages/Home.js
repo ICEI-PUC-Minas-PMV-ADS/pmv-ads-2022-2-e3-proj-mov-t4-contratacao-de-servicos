@@ -1,82 +1,74 @@
-import React from 'react';
-import {
-  Image,
-  StyleSheet,
-  TouchableOpacity,
-  Text,
-  Alert,
-  View,
-} from 'react-native';
-import { Input } from './../components/Input';
+import * as React from 'react';
+import { BottomNavigation, Text } from 'react-native-paper';
+
 import { Container } from '../components/Container';
-import { useNavigation } from '@react-navigation/native'
 import { Body } from '../components/Body';
+import { Logo } from '../components/Logo';
+import { TextInput, Button, Headline, RadioButton } from 'react-native-paper';
+import { Input } from '../components/Input';
+import { StyleSheet, View, Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useUser } from '../contexts/UserContext';
 
 const Home = () => {
   const navigation = useNavigation();
-  
+  const [index, setIndex] = React.useState(0);
+  const { setSigned, setName } = useUser();
+  const [routes] = React.useState([
+    {
+      key: 'gastos',
+      title: 'Gastos',
+      focusedIcon: 'heart',
+      unfocusedIcon: 'heart-outline',
+    },
+    {
+      key: 'calculadora',
+      title: 'Calculadora',
+      focusedIcon: 'heart',
+      unfocusedIcon: 'heart-outline',
+    },
+  ]);
+
+  const handleAlterarSenha = () => {
+    navigation.navigate('AlterarSenha')
+  };
+
+  const handleSair = () => {
+    setSigned(false);
+    AsyncStorage.removeItem('@TOKEN_KEY').then();
+  };
+
   return (
     <Container>
+      <View style={styles.header}></View>
+      <Headline style={styles.textHeader}>Tela Principal</Headline>
       <Body>
-      <Image style={styles.logo} source={require('../assets/bh_logo.png')} />
-      <Input label="Digite seu email" />
-      <Input label="Digite sua senha" secureTextEntry />
-      <TouchableOpacity
-        style={styles.botao}
-        onPress={() => {
-          Alert.alert('BH Serciços', ' Logando....');
-        }}>
-        <Text style={styles.botaoText}>Login</Text>
-      </TouchableOpacity>
-
-      <View style={styles.containerRadio}>
-        <View style={styles.containerRadioItem}>
-          <TouchableOpacity
-            onPress={()=> {
-              navigation.navigate('TipoCadastro');}}>
-            <Text style={styles.text}>Cadastre-se</Text>
-          </TouchableOpacity>
-        </View>
-      </View>
+        <Button
+          mode="contained"
+          style={styles.button}
+          onPress={handleAlterarSenha}>
+          Alterar Senha
+        </Button>
+        <Button mode="outlined" style={styles.button} onPress={handleSair}>
+          Sair
+        </Button>
       </Body>
     </Container>
   );
 };
 
 const styles = StyleSheet.create({
-  logo: {
-    width: 150,
-    height: 150,
-    borderRadius: 100,
+  button: {
+    marginBottom: 8,
   },
-  botao: {
-    width: 300,
-    height: 45,
-    backgroundColor: '#2c346b',
-    marginTop: 10,
-    borderRadius: 4,
+  textHeader: {
+    textAlign: 'center',
+  },
+  header: {
     alignItems: 'center',
-    justifyContent: 'center',
-  },
-  botaoText: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#FFF',
-  },
-  containerRadio: {
-    flexDirection: 'row',
-    margin: 8,
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
-  },
-  containerRadioItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
-  },
-  text: {
-    color: '#2c346b',
-    fontSize: 16,
+    marginTop: 30,
+    marginBottom: 12,
   },
 });
 
