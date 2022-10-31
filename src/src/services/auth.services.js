@@ -50,3 +50,27 @@ export const login = async (param) => {
     return null;
   }
 };
+
+export const alterarSenha = async (param) => {
+  try {
+    var config = {
+      method: 'put',
+      url: `${BASE_URL}/api/usuarios/alterarSenha`,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      data: JSON.stringify(param),
+    };
+    return await API(config).then(
+      (response) => {
+        return response.data;
+      },
+      (error) => {
+        return error;
+      }
+    );
+  } catch (error) {
+    console.log(error);
+    return null;
+  }
+};

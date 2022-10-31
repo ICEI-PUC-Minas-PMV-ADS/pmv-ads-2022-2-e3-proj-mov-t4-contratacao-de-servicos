@@ -28,7 +28,7 @@ export default function Endereco({ route }) {
   const maskCep = '[00000]-[000]';
 
   const handleRegister = () => {
-    const token = AsyncStorage.getItem('@TOKEN_KEY');
+    const token = AsyncStorage.getItem('@TOKEN_KEY')
     if (token) {
       AsyncStorage.removeItem('@TOKEN_KEY').then();
     }
@@ -44,8 +44,6 @@ export default function Endereco({ route }) {
       uf: uf.trim(),
       id: '',
     }).then((res) => {
-      console.log('mario');
-      console.log(res);
       if (res) {
         Alert.alert('Atenção', 'Usuario cadastrado com sucesso', [
           { text: 'OK', onPress: () => navigation.navigate('Login') },

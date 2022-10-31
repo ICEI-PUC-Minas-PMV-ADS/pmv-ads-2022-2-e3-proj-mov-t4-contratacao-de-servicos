@@ -11,6 +11,8 @@ import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useUser } from '../contexts/UserContext';
 import jwt_decode from "jwt-decode";
+import { alterarSenha } from '../services/auth.services';
+
 
 const AlterarSenha = () => {
   const navigation = useNavigation();
@@ -20,7 +22,7 @@ const AlterarSenha = () => {
   const [passwordReNew, setPasswordReNew] = useState('');
 
 
-  const handleAlterarSenha = () => {
+  const handleAlterarSenha = async() => {
 
     if (!(passwordOld)) {
       Alert.alert('Atenção', 'Digite sua senha antiga! ');
@@ -37,12 +39,24 @@ const AlterarSenha = () => {
       return;
     }
 
-    //console.log(jwt_decode(AsyncStorage.getItem('@TOKEN_KEY')));
-
-    Alert.alert('Atenção', 'Senha alterada com sucesso! ');
-    navigation.goBack();
-    
-
+    const token = await AsyncStorage.getItem('@TOKEN_KEY');
+    const dados = jwt_decode(token);
+    alterarSenha({
+      username: dados.user_name,
+      oldPassword: passwordOld,
+      newPassword: passwordNew,
+    }).then((res) => {
+      if (res) {
+        Alert.alert('Atenção', res, [
+          { text: 'OK', onPress: () => navigation.goBack() },
+        ]);
+      } else {
+        Alert.alert(
+          'Atenção',
+          'Usuario não cadastrado! Tentye novamente mais tarde =D'
+        );
+      }
+    });
   };
 
   return (
