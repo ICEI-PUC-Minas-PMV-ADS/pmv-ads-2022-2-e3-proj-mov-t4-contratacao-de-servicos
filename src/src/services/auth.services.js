@@ -14,6 +14,7 @@ export const register = async (param) => {
     };
     return await API(config).then(
       (response) => {
+        console.log(response)
         return response.data;
       },
       (error) => {
@@ -74,3 +75,21 @@ export const alterarSenha = async (param) => {
     return null;
   }
 };
+
+
+export const validaUsername = async (param) => {
+  try{
+    return await API.get(`${BASE_URL}/api/usuarios/validaUsername`, { params: param }).then(
+      response => {
+        return response.data;
+      },
+      error => {
+        console.log(error);
+        return null;
+      }
+    );
+  }catch(error){
+    console.log(error);
+    return null
+  }
+}

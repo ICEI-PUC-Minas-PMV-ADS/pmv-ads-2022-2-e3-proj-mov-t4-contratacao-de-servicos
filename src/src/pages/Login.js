@@ -10,7 +10,9 @@ import { useNavigation } from '@react-navigation/native';
 import { useUser } from '../contexts/UserContext';
 import { login } from '../services/auth.services';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import jwt_decode from "jwt-decode";
+import jwt_decode from 'jwt-decode';
+
+import { listaTipoServico } from '../services/tipoServico';
 
 export default function Login() {
   const navigation = useNavigation();
@@ -75,9 +77,10 @@ export default function Login() {
         <Button
           mode="outlined"
           style={styles.button}
-          onPress={() => navigation.navigate('Register')}>
-          Registar
+          onPress={() => navigation.navigate('RegisterPasso01')}>
+          Registrar
         </Button>
+        
       </Body>
     </Container>
   );
@@ -92,7 +95,7 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
-    marginTop: 30,
+    marginTop: 100,
     marginBottom: 12,
   },
 });
