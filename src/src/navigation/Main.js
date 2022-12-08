@@ -2,7 +2,8 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home';
 import AlterarSenha from '../pages/AlterarSenha';
-import PedidoDatails from '../pages/PedidoDatails';
+import PedidoDetails from '../pages/PedidoDetails';
+import Pedido from '../pages/Pedido';
 
 
 const Stack = createNativeStackNavigator();
@@ -25,10 +26,18 @@ export default function Main(){
           }}
         />
         <Stack.Screen 
-          name="PedidoDatails" 
-          component={PedidoDatails} 
+          name="Detalhe" 
+          component={PedidoDetails} 
           options={{
-              header:()=> null
+            title: 'Detalhe Pedido' 
+          }}
+        />
+        <Stack.Screen 
+          name="Pedido" 
+          component={Pedido} 
+          options={{
+            title: 'Novo Pedido',
+            header:()=> null
           }}
         />
       </Stack.Navigator>

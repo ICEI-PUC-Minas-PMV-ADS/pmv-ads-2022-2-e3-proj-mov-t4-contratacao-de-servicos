@@ -49,30 +49,13 @@ export default function Home() {
   
   
 
-
-  const carregarLista =  () => {
-    listaPedidoByCliente(62).then((res) => {
-      if (res) {
-        if (res) {
-          console.log(res);
-          setListaPedido(res)
-          console.log('preencheu');
-          console.log(test)
-        } else {
-          setListaPedido([]);
-          console.log('nao achou');
-        }
-      } else {
-        Alert.alert('Atenção', 'Erro na API! Tentye novamente mais tarde =D');
-        setListaPedido([]);
-        console.log('dsadsadas');
-      }
-    });
-  };
-
   const handleAlterarSenha = () => {
     navigation.navigate('AlterarSenha');
   };
+  const handleNovo = () => {
+    navigation.navigate('Pedido');
+  };
+
 
   const handleSair = () => {
     setSigned(false);
@@ -81,7 +64,7 @@ export default function Home() {
 
   return (
     <Container>
-      <Header name="Mario Fernandes 2" click={handleAlterarSenha}/>
+      <Header name="Home" click={handleAlterarSenha}/>
       <Body>
       <Text style={styles.title}>Pedidos Realizados</Text>
       <FlatList
@@ -89,9 +72,9 @@ export default function Home() {
         data={listaPedido}
         keyExtractor={(item) => String(item.id)}
         showsVerticalScrollIndicator={false}
-        renderItem={({ item }) => <Moviments data={item} />}
+        renderItem={({ item }) => <Moviments data={item} click={()=> {navigation.navigate('Detalhe', {item})}}/>}
       />
-      <TouchableOpacity >
+      <TouchableOpacity onPress={handleNovo}>
       <View style={styles.areaButton}>
           <AntDesign name="plus" size={26} color="#000" />
         </View>
