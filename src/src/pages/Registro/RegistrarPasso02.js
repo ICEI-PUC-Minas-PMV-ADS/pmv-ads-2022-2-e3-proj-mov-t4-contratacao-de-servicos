@@ -210,7 +210,7 @@ export default function RegistrarPasso02({ route }) {
           mode="outlined"
           style={styles.button}
           onPress={() => navigation.goBack()}>
-          Cancelar
+          Voltar
         </Button>
       </Body>
     </Container>

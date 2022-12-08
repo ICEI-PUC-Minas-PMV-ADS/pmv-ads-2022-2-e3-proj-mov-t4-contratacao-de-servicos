@@ -41,14 +41,16 @@ export default function RegistrarPasso03({ route }) {
   });
 
   const handleRegister = (data) => {
+    let dadosBasicoNovo = {
+      ...dadosBasico,
+      ...data,
+    };
+
     const token = AsyncStorage.getItem('@TOKEN_KEY');
     if (token) {
       AsyncStorage.removeItem('@TOKEN_KEY').then();
     }
-    register({
-      ...dadosBasico,
-      ...data,
-    }).then((res) => {
+    register(dadosBasicoNovo).then((res) => {
       if (res) {
         Alert.alert('Atenção', 'Usuario cadastrado com sucesso', [
           { text: 'OK', onPress: () => navigation.navigate('Login') },
@@ -64,11 +66,19 @@ export default function RegistrarPasso03({ route }) {
     });
   };
 
+  const handleProximo = (data) => {
+    let dadosBasicoNovo = {
+      ...dadosBasico,
+      ...data,
+    };
+    console.log(dadosBasicoNovo)
+    navigation.navigate('RegisterPasso04', { dadosBasicoNovo });
+  };
+
   const handleBuscarCep = () => {
-    
-      let cep = getValues('cep')
-      if (cep) {
-        cep = cep.replace('-', '');
+    let cep = getValues('cep');
+    if (cep) {
+      cep = cep.replace('-', '');
       if (cep.length == 8) {
         console.log(cep);
         buscaCep(cep).then((res) => {
@@ -209,13 +219,23 @@ export default function RegistrarPasso03({ route }) {
         {errors.uf && (
           <Text style={styles.textError}>{errors.uf?.message}</Text>
         )}
-
-        <Button
-          mode="contained"
-          style={styles.button}
-          onPress={handleSubmit(handleRegister)}>
-          Registrar
-        </Button>
+        {console.log(dadosBasico?.role)}
+        {dadosBasico?.role === 'cliente' && (
+          <Button
+            mode="contained"
+            style={styles.button}
+            onPress={handleSubmit(handleRegister)}>
+            Registrar
+          </Button>
+        )}
+        {dadosBasico?.role === 'fornecedor' && (
+          <Button
+            mode="contained"
+            style={styles.button}
+            onPress={handleSubmit(handleProximo)}>
+            Próximo
+          </Button>
+        )}
         <Button
           mode="outlined"
           style={styles.button}

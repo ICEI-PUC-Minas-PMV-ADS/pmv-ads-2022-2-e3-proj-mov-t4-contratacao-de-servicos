@@ -12,7 +12,6 @@ import { login } from '../services/auth.services';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import jwt_decode from 'jwt-decode';
 
-import { listaTipoServico } from '../services/tipoServico';
 
 export default function Login() {
   const navigation = useNavigation();

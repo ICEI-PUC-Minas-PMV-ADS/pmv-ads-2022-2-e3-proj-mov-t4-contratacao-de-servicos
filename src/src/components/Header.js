@@ -1,16 +1,56 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import { Appbar } from 'react-native-paper';
+import {
+  View,
+  StyleSheet,
+  Text,
+  StatusBar,
+  TouchableOpacity,
+} from 'react-native';
+import { Feather } from '@expo/vector-icons';
 
-export function Header({ title, goBack, children}) {
+const statusBarHeight = StatusBar.currentHeight
+  ? StatusBar.currentHeight + 22
+  : 44;
+
+export function Header({ name, click }) {
   return (
-    <Appbar.Header>
-      {
-        goBack &&
-        <Appbar.BackAction onPress={goBack} />
-      }
-      <Appbar.Content title={title} />
-      {children}
-    </Appbar.Header>
+    <View style={styles.container}>
+      <View style={styles.content}>
+        <Text style={styles.username}>{name}</Text>
+        <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser} onPress={click}>
+          <Feather name="user" size={27} color="#FFF" />
+        </TouchableOpacity>
+      </View>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#8000FF',
+    paddingTop: statusBarHeight,
+    flexDirection: 'row',
+    paddingStart: 16,
+    paddingEnd: 16,
+    paddingBottom: 44,
+  },
+  content: {
+    flex: 1,
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  username: {
+    fontSize: 16,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+  buttonUser: {
+    width: 44,
+    height: 44,
+    backgroundColor: 'rgba(255,255,255, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 44 / 2,
+  },
+});
